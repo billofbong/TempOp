@@ -47,7 +47,7 @@ public class TempOp extends JavaPlugin {
                     long dur = Integer.parseInt(args[1]) * 20;
                     target.sendMessage(ChatColor.GREEN + "You have been opped for " + args[1] + " seconds.");
                     final CommandSender sender = cs;
-                    cs.sendMessage(ChatColor.GREEN + "Opped " + target.getDisplayName() + " for " + args[1] + "seconds.");
+                    cs.sendMessage(ChatColor.GREEN + "Opped " + target.getDisplayName() + " for " + args[1] + " seconds.");
                     getServer().getScheduler().scheduleSyncDelayedTask(TempOp, new Runnable() {
                     
                     public void run() {
