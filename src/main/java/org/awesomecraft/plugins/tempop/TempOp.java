@@ -53,7 +53,7 @@ public class TempOp extends JavaPlugin {
                     public void run() {
                         target.setOp(false);
                         target.sendMessage(ChatColor.RED + "You are no longer op.");
-                        sender.sendMessage(ChatColor.GREEN + target.getDisplayName() + "hes been de-opped.");
+                        sender.sendMessage(ChatColor.GREEN + target.getDisplayName() + "has been de-opped.");
                     }
                 }, dur);
                 }
